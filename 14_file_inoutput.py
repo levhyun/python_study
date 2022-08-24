@@ -1,0 +1,8 @@
+file = open("testfile.txt", "w", encoding="utf8")
+print("test file", file=file)
+print("1 2 3 4 5", file=file)
+print("a b c d e", file=file)
+file.write("test2 file2")
+file.write("\n12 22 32 42 52")
+file.write("\na2 b2 c2 d2 e2")
+file.close()
