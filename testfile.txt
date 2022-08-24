@@ -1,6 +1,2 @@
 test file
-1 2 3 4 5
 a b c d e
-test2 file2
-12 22 32 42 52
-a2 b2 c2 d2 e2

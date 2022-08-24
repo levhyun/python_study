@@ -1,8 +1,26 @@
 file = open("testfile.txt", "w", encoding="utf8")
 print("test file", file=file)
-print("1 2 3 4 5", file=file)
-print("a b c d e", file=file)
-file.write("test2 file2")
-file.write("\n12 22 32 42 52")
-file.write("\na2 b2 c2 d2 e2")
+file.write("a b c d e")
 file.close()
+
+file2 = open("testfile.txt", "r", encoding="utf8")
+print("testfile.txt 내용:")
+print(file2.read())
+file2.close()
+
+file2 = open("testfile.txt", "r", encoding="utf8")
+print("\n한줄 읽고 다음줄로 이동:")
+print(file2.readline())
+print("endline^")
+print(file2.readline(), end="")
+file2.close()
+
+print("\n파일읽기 응용 ( while문 )")
+
+file3 = open("testfile.txt", "r", encoding="utf8")
+while True:
+    line = file3.readline()
+    if not line:
+        break
+    print(line, end="")
+file3.close()
