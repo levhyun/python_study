@@ -1,3 +1,5 @@
+# 함수호출
+
 def Function_Recall(a,b,c):
     print("\n1. 합을 구하기")
     print("2. 차을 구하기")

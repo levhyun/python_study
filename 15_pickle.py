@@ -1,3 +1,5 @@
+# 피클 (파일 입출력)
+
 import pickle
 
 p_file = open("p_file.pickle", "wb")
