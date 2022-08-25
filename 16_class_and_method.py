@@ -1,10 +1,10 @@
 # 클래스와 메소드
 
 class Class: # class 파일명
-    def __init__(self, a, b, c): # def __init__(self, 변수) <- 필수
-        self.a = a # 메소드
-        self.b = b # 메소드
-        self.c = c # 메소드
+    def __init__(self, a, b, c): # 메소드 : def __init__(self, 변수)
+        self.a = a
+        self.b = b
+        self.c = c
         print("{0} [{1}_{2}]\n".format(self.a, self.b, self.c)) # 받은 값 출력
 
 one = Class("JAVA",1,3) # 클래스에 정보를 전달
