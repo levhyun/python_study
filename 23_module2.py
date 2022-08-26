@@ -1,7 +1,8 @@
 # 모듈2
 
-from module_code3 import a, b, c
+from module_code3 import *
 # module_code3 파일을 선언
+# from module_code3 import a, b, c <- 이렇게 쓸 메소드를 지정선언도 가능
 
 print("\na=그대로 / b=(+2) / c=(+4)")
 
